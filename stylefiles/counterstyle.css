@@ -1,0 +1,36 @@
+#counterLabel {
+    display: block;
+    text-align: center;
+    font-size: 15em;
+    font-family:Helvetica;
+}
+#btncontainer {
+    text-align: center;
+}
+#stepContainer {
+    text-align: center;
+    font-family:Helvetica;
+    font-size:2em;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+}
+#stepInput {
+    width: 8%;
+    padding: 4px;
+    font-size: 4em;
+    border: 2px solid hsl(214, 100%, 56%);
+    border-radius: 5px;
+    text-align: center;
+}
+.buttons{
+    padding: 20px 30px;
+    color: #ffffff;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    font-size:2.5em;
+}
+.buttons:hover{
+    background-color: hsl(214, 100%, 56%);
+}
