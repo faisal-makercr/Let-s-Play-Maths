@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#title {
+    font-size: 4em;
+    margin-bottom: 2em;
+}
+.upper {
+    display: inline-block;
+    text-align:left;
+    font-size: 3em;
+    margin: 15px 0px;
+    border: 3px solid #000;
+}
+ul {
+    list-style: none;
+}
+#rules {
+    font-weight: bold;
+}
+ul li {
+    font-size: 0.8em;
+}
+.guessgame {
+    font-size: 2em;
+}
+#guessValue {
+    font-size: 1.6em;
+    padding: 4px 15px;
+}
+#hint {
+    margin: 20px;
+}
+.btn {
+    font-size: 1.6em;
+    padding: 4px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.btn:hover {
+    background-color:hsla(240, 4%, 56%, 0.716);
+}
