@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+}
+#headrandom {
+    font-size: 4em;
+    margin-bottom: 3em;
+}
+#myButton{
+    font-size: 5em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.myLabels{
+    font-size: 4em;
+}
