@@ -18,7 +18,7 @@ button.onclick = function() {
     if (won) {
         hint.innerText = "You already won! Click Restart to play again.";
     }
-    val= Number(document.getElementById('guessValue').value);
+    val = Number(document.getElementById('guessValue').value);
     getHint(val);
     increaseCounter();
 }
@@ -43,7 +43,7 @@ function getHint(val) {
         }
     }
     else {
-        hint.innerText = "No hints for this value"
+        hint.innerText = "No hints for this value";
     }
 }
 function increaseCounter() {
