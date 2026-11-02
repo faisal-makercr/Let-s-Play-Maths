@@ -1,32 +1,63 @@
-/*const minNum = 1;
-const maxNum = 100;
-const answer = Math.floor(Math.random() - minNum +1) + minNum;
+console.log("Script Working..");
 
-let attempts = 0;
-let guess;
-let running = true;
+const button = document.getElementById("guessBtn");
+const restart = document.getElementById("restartBtn");
+const counter = document.getElementById("counter");
+const hint = document.getElementById("hint");
 
-while(running) {
-    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
-    guess = Number(guess);
+let randomValue = generateRandomValue();
+let count = 0;
+let won = false;
+let val;
 
-    if(isNaN(guess)){
-        window.alert("Please enter a valid number");
+function generateRandomValue(){
+    return Math.floor(Math.random() * 101);
+}
+
+button.onclick = function() {
+    if (won) {
+        hint.innerText = "You already won! Click Restart to play again.";
     }
-    else if(guess < minNum || guess > maxNum){
-        window.alert("Please enter a valid number")
+    val= Number(document.getElementById('guessValue').value);
+    getHint(val);
+    increaseCounter();
+}
+
+function getHint(val) {
+    if(val >= 0 && val <= 100){
+        if(val == randomValue) {
+            hint.innerText =`Congratulations, You won in ${count + 1} attempts`;
+            won = true;
+        }
+        else if ((randomValue - val) > 10) {
+            hint.innerText = "Your guess is too low!";
+        }
+        else if ((val - randomValue) > 10) {
+            hint.innerText = "Your guess is too high!";
+        }
+        else if ((randomValue -val) <=10 && randomValue > val) {
+            hint.innerText = "Your guess is slightly low!";
+        }
+        else if ((val - randomValue) <=10 && val > randomValue) {
+            hint.innerText = "Your guess is slightly high!";
+        }
     }
     else {
-        attempts++;
-        if(guess < answer) {
-            window.alert("TOO LOW! TRY AGAIN!!");
-        }
-        else if(guess > answer) {
-            window.alert("TOO HIGH! TRY AGAIN!!");
-        }
-        else{
-            window.alert(`CORRECT! The answer was ${answer}. It took you ${attempts} attempts`);
-            running = false;
+        hint.innerText = "No hints for this value"
+    }
+}
+function increaseCounter() {
+    if (count < 4) {
+        count++;
+        counter.innerText = count;
+    }
+    else {
+        counter.innerText = "Guesses Finished";
+        if (!won) {
+            hint.innerText = `You lost, the ans was ${randomValue}. Click Restart.`;
         }
     }
+}
+restart.onclick = function() {
+    location.reload();
 }

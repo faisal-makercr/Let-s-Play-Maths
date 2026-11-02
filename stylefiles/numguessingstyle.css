@@ -2,9 +2,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+#headTitle {
+    font-size:5em;
+}
 #title {
     font-size: 4em;
     margin-bottom: 2em;
+}
+.gamesection .game1 {
+    font-size: 3em;
+    margin:0.2em;
+    min-width:280px;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.gamesection .game1:hover {
+    background-color:hsla(225, 15%, 52%, 0.716);
 }
 .upper {
     display: inline-block;
@@ -26,7 +41,8 @@ ul li {
     font-size: 2em;
 }
 #guessValue {
-    font-size: 1.6em;
+    min-width: 320px;
+    font-size: 1.5em;
     padding: 4px 15px;
 }
 #hint {
@@ -40,5 +56,5 @@ ul li {
     transition: background-color 0.25s ease;
 }
 .btn:hover {
-    background-color:hsla(240, 4%, 56%, 0.716);
+    background-color:hsla(225, 15%, 52%, 0.716);
 }
