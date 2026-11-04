@@ -11,7 +11,7 @@ let won = false;
 let val;
 
 function generateRandomValue(){
-    return Math.floor(Math.random() * 101);
+    return Math.floor(Math.random() * 51);
 }
 
 button.onclick = function() {
@@ -24,7 +24,7 @@ button.onclick = function() {
 }
 
 function getHint(val) {
-    if(val >= 0 && val <= 100){
+    if(val >= 0 && val <= 50){
         if(val == randomValue) {
             hint.innerText =`Congratulations, You won in ${count + 1} attempts`;
             won = true;
@@ -47,7 +47,7 @@ function getHint(val) {
     }
 }
 function increaseCounter() {
-    if (count < 4) {
+    if (count < 3) {
         count++;
         counter.innerText = count;
     }

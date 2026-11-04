@@ -14,7 +14,7 @@ function generateRandomValue() {
     return Math.floor(Math.random() * 101);
 }
 
-button.onclick = funtion() {
+button.onclick = function() {
     if (won) {
         hint.innerText = "You Already won!, Click restart to play again.";
     }
