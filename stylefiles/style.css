@@ -4,8 +4,25 @@ body{
     font-size: 4em;
 }
 .clicktosee{
-    font-size: 0.5em;
+    font-size: 0.82em;
+    padding: 0.3em;
+    border-radius:0.2em;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    margin:0.5em;
+}
+.clicktosee:hover {
+    background-color: hsla(225, 15%, 52%, 0.716);
 }
 .numbergames #num{
-    font-size:0.5em;
+    font-size:0.7em;
+    padding: 0.2em;
+    border-radius:0.2em;
+    min-width:600px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    margin: 0.2em;
+}
+.numbergames #num:hover {
+    background-color: hsla(225, 15%, 52%, 0.716);
 }
