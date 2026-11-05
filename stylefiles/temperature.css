@@ -1,7 +1,46 @@
 body {
     font-family: "Libre Baskerville", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     text-align: center;
+}
+
+h1 {
+    font-family:"Press Start 2P", cursive;
+    font-size: 5em;
+}
+.inputtempo #temperature {
+    font-size:3em;
+    padding: 8px 25px;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+.inputtempo #scale {
+    font-size:2.8em;
+    padding: 7px 20px;
+    border-radius: 0.2em;
+    transition: background-color 0.25s ease;
+}
+.inputtempo #scale:hover {
+    background-color: hsla(225, 15%, 52%, 0.716)
+}
+.buttons #btn1 {
+    font-size: 3em;
+    padding: 0.3em 0.5em;
+    border-radius:0.2em;
+    margin: 0.5em;
+    transition: background-color 0.25s ease;
+}
+.buttons #btn1:hover {
+    background-color: hsla(225, 15%, 52%, 0.716);
+}
+.result .card {
+    font-size:2em;
+}
+.result .card #celsius {
+    font-size:1.2em;
+}
+#fahrenheit {
+    font-size: 1.2em;
+} 
+#kalvin {
+    font-size: 1.2em;
 }
