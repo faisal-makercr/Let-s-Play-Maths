@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="/letsplaymaths/stylefiles/temperature.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Temperature Converter!!</h1>
+        <div class="inputtempo">
+            <input type="number" id="temperature" placeholder="Enter Temperature">
+            <select id="scale">
+                <option value="celcius">celcius (C)</option>
+                <option value="fahrenheit">fahrenheit (F)</option>
+                <option value="kalvin">kalvin</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button onclick="ConvertTemperature()">Convert</button>
+            <button onclick="ResetConverter()">Reset</button>
+        </div>
+        <div class="result">
+            <div class="card">
+                <h2>Celsius</h2>
+                <p id="celsius">0 C</p>
+            </div>
+            <div class="card">
+                <h2>Fahrenheit</h2>
+                <p id="fahrenheit">32 F</p>
+            </div>
+            <div class="card">
+                <h2>kalvin</h2>
+                <p id="kalvin">273.15 K</p>
+            </div>
+        </div>
+        <script src="/letsplaymaths/scriptfiles/temperature.js"></script>
+    </body>
+</html>
