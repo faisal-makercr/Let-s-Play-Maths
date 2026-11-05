@@ -17,6 +17,7 @@ function generateRandomValue(){
 button.onclick = function() {
     if (won) {
         hint.innerText = "You already won! Click Restart to play again.";
+        return;
     }
     val = Number(document.getElementById('guessValue').value);
     getHint(val);
