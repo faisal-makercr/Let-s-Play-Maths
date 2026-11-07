@@ -1,8 +1,8 @@
 function convertTemperature() {
     const tempInput = document.getElementById("temperature");
-    const fromScale = document.getElementById("fromScale").value;
+    const fromScale = document.getElementById("fromScale");
     const toScale = document.getElementById("toScale");
-    const result = document.getElementById("result");
+    const result = document.getElementById("result1");
     const errorMessage = document.getElementById("errorMessage");
 
     const rawValue = tempInput.value;
@@ -12,14 +12,19 @@ function convertTemperature() {
         result.innerHTML = "";
         return;
     }
+
     const value = Number(rawValue);
     if (isNaN(value)) {
         errorMessage.innerHTML ="*please enter a valid number";
         result.innerHTML = "";
         return;
     }
+
+    errorMessage.innerHTML = "";
+
     const from = fromScale.value;
     const to = toScale.value;
+
     let celsius;
     if(from === "celsius") {
         celsius = value;
@@ -43,7 +48,7 @@ function convertTemperature() {
     }
     
     const formatted = converted.toLocaleString(undefined, {
-        minimumFractionDigits: 2,
+        minimumFractionDigits:2,
         maximumFractionDigits:2
     });
     const unitSymbols = {
@@ -51,13 +56,13 @@ function convertTemperature() {
         fahrenheit: "F",
         kelvin: "K"
     };
-    result.innerHTML = `${formatted} ${unitsymbols[to]}`;
+    result.innerHTML = `${formatted} ${unitSymbols[to]}`;
+}
 
-    function resetConverter() {
+function resetConverter() {
         document.getElementById("temperature").value = "";
         document.getElementById("fromScale").value = "celsius";
         document.getElementById("toScale").value = "celsius";
-        document.getElementById("result").inner = "Result will appear here";
+        document.getElementById("result1").innerHTML = "Result will appear here";
         document.getElementById("errorMessage").innerHTML = "";
-    }
 }
