@@ -1,13 +1,14 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Libre Baskerville", Helvetica, sans-serif;
     text-align: center;
 }
-#headTitle {
+.headTitle {
+    font-family:"Press Start 2P", cursive;
     font-size:5em;
 }
 #title {
     font-size: 4em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .gamesection .game1 {
     font-size: 3em;
@@ -16,10 +17,11 @@ body {
     padding: 0.3em;
     border-radius: 0.2em;
     cursor: pointer;
+    background-color:hsl(214, 69%, 75%);
     transition: background-color 0.25s ease;
 }
 .gamesection .game1:hover {
-    background-color:hsla(225, 15%, 52%, 0.716);
+    background-color:hsl(214, 100%, 52%);
 }
 .upper {
     display: inline-block;
@@ -53,8 +55,10 @@ ul li {
     padding: 4px 15px;
     border-radius: 8px;
     cursor: pointer;
+    border:2px solid hsl(214, 100%, 56%);
+    background-color:hsl(214, 100%, 74%);
     transition: background-color 0.25s ease;
 }
 .btn:hover {
-    background-color:hsla(225, 15%, 52%, 0.716);
+    background-color:hsl(214, 100%, 56%);
 }
