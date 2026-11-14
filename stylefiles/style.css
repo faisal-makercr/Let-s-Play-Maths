@@ -24,7 +24,7 @@ h1 {
     font-size: 0.82em;
     padding: 0.3em;
     border-radius:0.2em;
-    border-width: 0 0.2em 0.2em 0;
+    border-width: 0 0.15em 0.15em 0;
     border-color: #000000;
     border-style:solid;
     cursor: pointer;
@@ -42,7 +42,7 @@ h1 {
     font-size:0.7em;
     padding: 0.2em;
     border-radius:0.2em;
-    border-width: 0 0.17em 0.17em 0;
+    border-width: 0 0.15em 0.15em 0;
     border-color:#000000;
     border-style: solid;
     min-width:600px;
@@ -53,7 +53,7 @@ h1 {
 }
 .numbergames #num:hover {
     background-color: hsl(214, 100%, 56%);
-    border-width: 0 0.2em 0.2em 0;
+    border-width: 0 0.23em 0.23em 0;
     border-color: #000000;
     border-style: solid;
 }
@@ -128,71 +128,90 @@ h1 {
     top: 70%;
     left: 48%;
 }
-.s12 {
+.s13 {
     top: 81%;
     left: 71%;
 }
-.s13 {
+.s14 {
     top:65%;
     left: 85%;
 }
-.s14 {
+.s15 {
     top:83%;
     left: 93%;
 }
-.s15 {
+.s16 {
     top: 86%;
     left: 3%;
 }
-.s16 {
+.s17 {
     top:60%;
     left: 25%;
 }
-.s17 {
+.s18 {
     top: 75%;
     left: 13%;
 }
-.s18 {
+.s19 {
     top: 83%;
     left: 23%;
 }
-.s19 {
+.s20 {
     top: 55%;
     left:5%;
 }
-.s20 {
+.s21 {
     top: 1%;
     left:2%;
 }
-.s21 {
+.s22 {
     top:7%;
     left:9%;
 }
-.s22 {
+.s23 {
     top: 22%;
     left: 24%;
 }
-.s23 {
+.s24 {
     top: 27%;
     left: 3%;
 }
-.s24 {
+.s25 {
     top: 45%;
     left: 10%;
 }
-.s25 {
+.s26 {
     top: 26%;
     left: 14%;
 }
-.s26 {
+.s27 {
     top: 2%;
     left: 80%;
 }
-.s27 {
+.s28 {
     top: 1%;
     left: 94%;
 }
-.s28 {
+.s29 {
     top: 32%;
     left: 78%;
+}
+.s30 {
+    top: 85%;
+    left:54%;
+}
+.s31 {
+    top:1%;
+    left:50%;
+}
+.mathsym-background span {
+    animation:floatMath 6s ease-in-out infinite alternate;
+}
+@keyframes floatMath {
+    from {
+        transform: translateY(0px) rotate(-5deg);
+    }
+    to {
+        transform: translateY(-25px) rotate(15deg);
+    }
 }

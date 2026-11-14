@@ -3,7 +3,12 @@ const resetBtn = document.getElementById("resetBtn");
 const increaseBtn = document.getElementById("increaseBtn");
 const counterLabel = document.getElementById("counterLabel");
 const stepInput = document.getElementById("stepInput");
-let count =0;
+const dropBtn = document.querySelector(".dropBtn");
+const navCount = document.querySelector(".navCount");
+
+dropBtn.addEventListener("click", function() {
+    navCount.classList.toggle("show");
+});
 
 function getStep() {
     const value = Number(stepInput.value);
