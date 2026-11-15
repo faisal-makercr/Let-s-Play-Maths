@@ -1,3 +1,18 @@
+body{
+    background-color: #ded2ff;
+    background-image:
+    linear-gradient(
+        rgba(48, 38, 77, 0.06) 1px,
+        transparent 10px
+    ),
+    linear-gradient(
+        90deg,
+        rgba(48, 38, 77, 0.06) 1px,
+        transparent 10px
+    );
+    background-size: 8em 8em;
+}
+
 .dropdownCount .dropBtn {
     font-family: "Press Start 2P", cursive;
     background-color: #30264D;
@@ -93,24 +108,31 @@
     transition: 0.5s;
     font-size:2.5em;
     width: 8em;
-    gap: 5em;
+    border-width: 0 0.15em 0.15em 0;
+    border-color: #000000;
 }
 .btn1:hover{
-    background-color: hsl(214, 100%, 56%);
+    background-color: hsl(214, 95%, 49%);
+    border-width: 0 0.25em 0.25em 0;
+    border-color: #000000;
     transform: translateY(-3px);
 }
 .btn2 {
     padding: 20px 30px;
     color: #ffffff;
-    background-color: hsl(214, 100%, 74%);
+    background-color: hsl(214, 90%, 74%);
     border-radius: 8px;
     cursor: pointer;
     font-size: 2.5em;
     width: 12.05em;
+    border-width: 0 0.15em 0.15em 0;
+    border-color: #000000;
     transition: 0.5s;
 }
 .btn2:hover {
-    background-color: hsl(214, 100%, 56%);
+    background-color: hsl(214, 98%, 56%);
+    border-width: 0 0.25em 0.25em 0;
+    border-color: #000000;
     transform: translateY(-3px);
 }
 

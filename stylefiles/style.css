@@ -29,7 +29,7 @@ h1 {
     border-style:solid;
     cursor: pointer;
     background-color:hsl(214, 90%, 76%);
-    transition: background-color 0.25s ease;
+    transition: 0.25s ease;
     margin:0.5em;
 }
 .clicktosee:hover {
@@ -37,6 +37,7 @@ h1 {
     border-width: 0 0.25em 0.25em 0;
     border-color: #000000;
     border-style:solid;
+    transform: translateY(-3px);
 }
 .numbergames #num{
     font-size:0.7em;
@@ -48,7 +49,7 @@ h1 {
     min-width:600px;
     cursor: pointer;
     background-color:hsl(214, 90%, 76%);
-    transition: background-color 0.25s ease;
+    transition: 0.25s;
     margin: 0.2em;
 }
 .numbergames #num:hover {
@@ -56,6 +57,7 @@ h1 {
     border-width: 0 0.23em 0.23em 0;
     border-color: #000000;
     border-style: solid;
+    transform: translateY(-2px);
 }
 
 .mathsym-background {
