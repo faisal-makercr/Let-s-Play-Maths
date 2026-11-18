@@ -4,11 +4,19 @@ const button = document.getElementById("guessBtn");
 const restart = document.getElementById("restartBtn");
 const counter = document.getElementById("counter");
 const hint = document.getElementById("hint");
+const dropBtn = document.querySelector(".dropBtn");
+const navNum = document.querySelector(".navNum");
 
 let randomValue = generateRandomValue();
 let count = 0;
 let won = false;
 let val;
+
+
+dropBtn.addEventListener("click", function(){
+    navNum.classList.toggle("show");
+});
+
 
 function generateRandomValue(){
     return Math.floor(Math.random() * 51);

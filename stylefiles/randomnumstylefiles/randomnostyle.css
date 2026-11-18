@@ -81,6 +81,7 @@ body {
     text-align: center;
 }
 .randomNums {
+    perspective: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,16 +108,13 @@ body {
 /* Styling the dice */
 
 .diceY {
-    perspective: 10em 10em;
     margin: 0 auto 5em;
     box-sizing: border-box;
-    justify-content: center;
     position: relative;
     width: 100px;
     height: 100px;
     transform-style: preserve-3d;
     transform: rotateX(45deg) rotateY(45deg);
-    animation: rolling 4s;
 }
 
 .face {
@@ -206,7 +204,13 @@ body {
                 50px 50px;
 }
 @keyframes rolling {
-    70% {
-        transform: rotateX(455deg) rotateY(455deg);
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    25% {
+        transform: rotateX(360deg) rotateY(180deg);
+    }
+    100% {
+        transform: rotateX(720deg) rotateY(720deg);
     }
 }

@@ -14,7 +14,6 @@
     align-items: center;
 }
 .gamesection .game2 {
-    font-family: cursive;
     font-size: 2em;
     min-width: 15em;
     padding: 0.4em;
@@ -43,11 +42,11 @@
 .container {
     display:grid;
     place-items: center;
-    width: 400px;
-    margin: 3em;
-    padding: 200px  0 80px;
-    border-radius: 30px;
-    background: #eeeeee;
+    width: 40em;
+    margin: 3em auto;
+    padding: 15em  0 4em;
+    border-radius: 1.5em;
+    background: #eeeeee59;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     align-items: center;
 }

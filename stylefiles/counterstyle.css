@@ -68,7 +68,7 @@ body{
     cursor: pointer;
     border: none;
     border-bottom: 5px solid #91D5F5;
-    transform: 0.6s;
+    transition: 0.6s;
 }
 .dropBtn:hover {
     color: #91D5f5;

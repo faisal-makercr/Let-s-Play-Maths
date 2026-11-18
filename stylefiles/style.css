@@ -20,6 +20,9 @@ h1 {
     font-size: 3.5em;
     margin-bottom: 0.5em;
 }
+p {
+    font-family: cursive;
+}
 .clicktosee{
     font-size: 0.82em;
     padding: 0.3em;

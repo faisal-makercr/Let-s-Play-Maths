@@ -1,19 +1,22 @@
 const diceY = document.querySelector('.diceY');
 const myButton = document.getElementById('myButton');
+const dropBtn = document.querySelector('.dropBtn');
+const navRandom = document.querySelector('.navRandom');
+
+dropBtn.addEventListener("click", function() {
+    navRandom.classList.toggle("show");
+});
 
 const randomDice = () => {
-    const random = Math.floor(Math.random() * 10);
-
-    if (random >= 1 && random <= 6) {
-        rollDice(random);
-    }
-    else {
-        randomDice();
-    }
-}
+    const random = Math.floor(Math.random() * 6) + 1;
+    rollDice(random);
+};
 
 const rollDice = random => {
+    diceY.style.animation = "none";
+    void diceY.offsetWidth;
     diceY.style.animation = 'rolling 4s';
+
     setTimeout(() => {
         switch (random) {
             case 1:
@@ -39,6 +42,6 @@ const rollDice = random => {
         }
         diceY.style.animation = 'none';
     }, 4050);
-}
+};
 
 myButton.addEventListener('click', randomDice);

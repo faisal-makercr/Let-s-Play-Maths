@@ -15,21 +15,23 @@ dropBtn.addEventListener("click", function() {
     navRandom.classList.toggle("show");
 });
 
-const randomDice = () => {
-    const random = Math.floor(Math.random() * 10);
-    if (random >= 1 && random <= 6) {
-        rollDice(random);
-    }
-    else {
-        randomDice();
-    }
-}
-myButton.addEventListener('click', randomDice);
 myButton.onclick = function() {
-    randomNum1 = Math.floor(Math.random() * max) + min;
-    randomNum2 = Math.floor(Math.random() * max) + min;
-    randomNum3 = Math.floor(Math.random() * max) + min;
+    label1.textContent = "";
+    label2.textContent = "";
+    label3.textContent = "";
+
+    diceY.style.animation = "none";
+    void diceY.offsetWidth;
+    diceY.style.animation = "rolling 4s";
+
+    setTimeout(() => {
+    randomNum1 = Math.floor(Math.random() * (max-min+1)) + min;
+    randomNum2 = Math.floor(Math.random() * (max-min +1)) + min;
+    randomNum3 = Math.floor(Math.random() * (max-min+1)) + min;
     label1.textContent = randomNum1;
     label2.textContent = randomNum2;
     label3.textContent = randomNum3;
-}
+
+    diceY.style.animation = "none";
+    }, 4000);
+};
