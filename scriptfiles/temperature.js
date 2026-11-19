@@ -66,3 +66,9 @@ function resetConverter() {
         document.getElementById("result1").innerHTML = "Result will appear here";
         document.getElementById("errorMessage").innerHTML = "";
 }
+
+    const dropBtn = document.querySelector(".dropBtn");
+    const navTempo = document.querySelector(".navTempo");
+dropBtn.addEventListener("click", function() {
+    navTempo.classList.toggle("show");
+});

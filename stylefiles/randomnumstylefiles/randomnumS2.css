@@ -1,11 +1,11 @@
 .headTitle {
     font-family:"Press Start 2P", cursive;
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: center;
 }
 #title {
     font-family:"Press Start 2P", cursive;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
 }
 .gamesection {
@@ -15,9 +15,10 @@
 }
 .gamesection .game2 {
     font-size: 2em;
-    min-width: 15em;
-    padding: 0.4em;
-    margin-top: 0.5em;
+    font-weight: bold;
+    width: 16em;
+    padding: 0.5em;
+    margin: 0.4em;
     border-radius: 0.2em;
     cursor: pointer;
     text-align: center;
