@@ -50,7 +50,7 @@ p {
     border-width: 0 0.15em 0.15em 0;
     border-color:#000000;
     border-style: solid;
-    min-width:580px;
+    min-width:440px;
     cursor: pointer;
     background-color:hsl(214, 90%, 76%);
     transition: 0.25s;
