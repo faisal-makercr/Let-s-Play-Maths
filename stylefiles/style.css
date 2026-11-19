@@ -17,15 +17,15 @@ body{
 }
 h1 {
     font-family:"Press Start 2P", cursive;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 0.5em;
 }
 p {
     font-family:"Press Start 2P", cursive;
-    font-size: 0.5em;
+    font-size: 0.3em;
 }
 .clicktosee{
-    font-size: 0.5em;
+    font-size: 0.3em;
     padding: 0.3em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;
@@ -44,7 +44,7 @@ p {
     transform: translateY(-3px);
 }
 .numbergames #num{
-    font-size:0.7em;
+    font-size:0.5em;
     padding: 0.2em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;

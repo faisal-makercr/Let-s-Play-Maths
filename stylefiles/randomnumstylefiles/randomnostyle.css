@@ -14,7 +14,7 @@ body {
 }
 .headRandom {
     font-family:"Press Start 2P", cursive;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ body {
     background-color: #30264D;
     color: #ffffff;
     padding: 1.2em 2em;
-    font-size: 1.8em;
+    font-size: 1em;
     font-weight: bold;
     border-bottom: 0.6em solid #91D5F5;
     transition: 0.5s;
@@ -62,7 +62,7 @@ body {
     gap: 20px; 
 }
 .navGrouping a{
-    font-size: 1.5em;
+    font-size: 1em;
     color: #ffffff;
     font-family:"Press Start 2P", cursive;
     font-weight: bold;
@@ -76,14 +76,14 @@ body {
 }
 #h2random {
     font-family:cursive;
-    font-size: 5em;
+    font-size: 2em;
     margin-top:1em;
     text-align: center;
 }
 h3 {
     text-align: center;
     font-family: cursive;
-    font-size: 3em;
+    font-size: 1em;
     margin-bottom: 2em;
 }
 .randomNums {
@@ -93,7 +93,7 @@ h3 {
     align-items: center;
 }
 #myButton{
-    font-size: 5em;
+    font-size: 2em;
     padding: 5px 25px;
     border-radius: 5px;
     background-color: #91d5f5;
@@ -108,7 +108,7 @@ h3 {
     border-color:#000000;
 }
 .myLabels{
-    font-size: 4em;
+    font-size: 2em;
 }
 
 /* Styling the dice */

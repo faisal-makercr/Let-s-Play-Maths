@@ -15,8 +15,8 @@ body {
 
 h1 {
     font-family:"Press Start 2P", cursive;
-    font-size: 4em;
-    margin: 1.5em;
+    font-size: 2em;
+    margin: 0.5em;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ h1 {
     background-color: #30264D;
     color: #ffffff;
     padding: 0.6em 1em;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
     border-bottom: 0.6em solid #91D5f5;
     transition: 0.5s;
@@ -69,7 +69,7 @@ h1 {
     gap: 20px;
 }
 .navGrouping a{
-    font-size: 1.5em;
+    font-size: 1em;
     color: #ffffff;
     font-family:"Press Start 2P";
     font-weight: bold;
@@ -83,7 +83,7 @@ h1 {
 }
 h2 {
     font-family:"Press Start 2P";
-    font-size: 2.5em;
+    font-size: 1em;
     margin: 1em;
     text-align: center;
 }
@@ -94,22 +94,22 @@ h2 {
     align-items: center;
 }
 .inputtempo #temperature {
-    font-size:2.8em;
+    font-size:1.5em;
     padding: 8px 25px;
     border-radius: 0.2em;
     cursor: pointer;
     text-align: center;
 }
 .selectLabel {
-    font-size: 1.8em;
+    font-size: 1em;
     margin: 40px 0 15px;
     font-family: cursive;
 }
 p {
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .scaleselect {
-    font-size:2.8em;
+    font-size:1.5em;
     padding: 7px 20px;
     min-width: 640px;
     border-radius: 0.2em;
@@ -124,7 +124,7 @@ p {
     align-items: center;
 }
 .buttons button {
-    font-size: 3em;
+    font-size: 1em;
     padding: 0.3em 0.5em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;
@@ -140,12 +140,12 @@ p {
     transform: translateY(-3px);
 }
 .result {
-    font-size:2em;
+    font-size:1em;
     text-align: center;
 }
 #result1 {
-    font-size: 2em;
+    font-size: 1em;
 }
 #errorMessage {
-    font-size: 2em;
+    font-size: 1em;
 }

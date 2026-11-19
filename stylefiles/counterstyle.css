@@ -18,7 +18,7 @@ body{
     background-color: #30264D;
     color: #ffffff;
     padding: 0.6em 1em;
-    font-size: 2.5em;
+    font-size: 1em;
     font-weight: bold;
     border-bottom: 0.6em solid #91D5F5;
     transition: 0.5s;
@@ -52,7 +52,7 @@ body{
     gap: 20px;
 }
 .navGrouping a {
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     font-family: "Press Start 2P", cursive;
     font-weight: bold;
@@ -78,7 +78,7 @@ body{
 #counterLabel {
     display: block;
     text-align: center;
-    font-size: 15em;
+    font-size: 10em;
     font-family:Helvetica; 
 }
 #btncontainer {
@@ -87,14 +87,14 @@ body{
 #stepContainer {
     text-align: center;
     font-family:Helvetica;
-    font-size:2em;
+    font-size:1em;
     margin-top: 5px;
     margin-bottom: 10px;    
 }
 #stepInput {
     width: 8%;
     padding: 4px;
-    font-size: 4em;
+    font-size: 2em;
     border: 2px solid hsl(214, 100%, 56%);
     border-radius: 5px;
     text-align: center;
@@ -106,7 +106,7 @@ body{
     border-radius: 8px;
     cursor: pointer;
     transition: 0.5s;
-    font-size:2.5em;
+    font-size:1em;
     width: 8em;
     border-width: 0 0.15em 0.15em 0;
     border-color: #000000;
@@ -123,7 +123,7 @@ body{
     background-color: hsl(214, 90%, 74%);
     border-radius: 8px;
     cursor: pointer;
-    font-size: 2.5em;
+    font-size: 1em;
     width: 12.05em;
     border-width: 0 0.15em 0.15em 0;
     border-color: #000000;
@@ -139,5 +139,5 @@ body{
 h1 {
     font-family:"Press Start 2P", cursive;
     text-align: center;
-    font-size: 5em;
+    font-size: 2em;
 }

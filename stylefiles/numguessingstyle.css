@@ -16,7 +16,7 @@ body {
 
 .headTitle {
     font-family:"Press Start 2P", cursive;
-    font-size:2em;
+    font-size:4em;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 .navGrouping a {
     font-family:"Press Start 2P";
-    font-size: 1.5em;
+    font-size: 1em;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -83,7 +83,7 @@ body {
 }
 #title {
     font-family:"Press Start 2P";
-    font-size: 2.5em;
+    font-size: 1em;
     margin: 1.5em;
     text-align: center;
 }
@@ -93,7 +93,7 @@ body {
     align-items: center;
 }
 .gamesection .game1 {
-    font-size: 3em;
+    font-size: 1em;
     margin:0.2em;
     min-width:300px;
     padding: 0.3em;
@@ -125,16 +125,16 @@ ul {
     font-weight: bold;
 }
 ul li {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .guessgame {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align:center;
     margin-top:2em;
 }
 #guessValue {
     min-width: 320px;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 4px 15px;
 }
 #hint {
@@ -142,7 +142,7 @@ ul li {
     margin: 20px;
 }
 .btn {
-    font-size: 1.6em;
+    font-size: 1em;
     padding: 4px 15px;
     border-radius: 8px;
     border-width: 0 0.15em 0.15em 0;
