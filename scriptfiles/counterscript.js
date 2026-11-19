@@ -1,10 +1,15 @@
 const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const increaseBtn = document.getElementById("increaseBtn");
+const increaseby5Btn = document.getElementById("increaseby5Btn");
+const decreaseby5Btn = document.getElementById("decreaseby5Btn");
+const increaseby10Btn = document.getElementById("increaseby10Btn");
+const decreaseby10Btn = document.getElementById("decreaseby10Btn");
 const counterLabel = document.getElementById("counterLabel");
 const stepInput = document.getElementById("stepInput");
 const dropBtn = document.querySelector(".dropBtn");
 const navCount = document.querySelector(".navCount");
+let count =0;
 
 dropBtn.addEventListener("click", function() {
     navCount.classList.toggle("show");
