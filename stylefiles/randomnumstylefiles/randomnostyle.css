@@ -78,8 +78,13 @@ body {
     font-family:cursive;
     font-size: 5em;
     margin-top:1em;
-    margin-bottom: 1.5em;
     text-align: center;
+}
+h3 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 3em;
+    margin-bottom: 2em;
 }
 .randomNums {
     perspective: 800px;

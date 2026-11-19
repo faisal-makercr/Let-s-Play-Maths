@@ -21,7 +21,8 @@ h1 {
     margin-bottom: 0.5em;
 }
 p {
-    font-family: cursive;
+    font-family:"Press Start 2P", cursive;
+    font-size: 0.7em;
 }
 .clicktosee{
     font-size: 0.82em;
