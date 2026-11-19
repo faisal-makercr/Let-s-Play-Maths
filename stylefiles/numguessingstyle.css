@@ -16,7 +16,7 @@ body {
 
 .headTitle {
     font-family:"Press Start 2P", cursive;
-    font-size:5em;
+    font-size:2em;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
     background-color: #30264D;
     color: #ffffff;
     padding: 0.6em 1em;
-    font-size: 2.5em;
+    font-size: 1em;
     font-weight: bold;
     border-bottom: 0.6em solid #91D5F5;
     transition: 0.5s;
@@ -112,7 +112,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align:center;
-    font-size: 3em;
+    font-size: 1em;
     
     border: 3px solid #000;
     font-family: cursive;

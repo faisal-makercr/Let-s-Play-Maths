@@ -17,15 +17,15 @@ body{
 }
 h1 {
     font-family:"Press Start 2P", cursive;
-    font-size: 3.5em;
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 p {
     font-family:"Press Start 2P", cursive;
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 .clicktosee{
-    font-size: 0.82em;
+    font-size: 0.5em;
     padding: 0.3em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;
@@ -78,7 +78,7 @@ p {
     position: absolute;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.5em;
     color: rgba(48, 38, 77, 0.2);
     user-select: none;
 }
