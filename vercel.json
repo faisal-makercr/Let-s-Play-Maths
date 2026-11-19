@@ -1,4 +1,6 @@
 {"rewrites": [
+    { "source": "/letsplaymaths/htmlfiles/index.html", "destination": "/index.html"},
+    { "source": "/htmlfiles/index.html", "destination": "/index.html"},
     { "source": "/letsplaymaths/stylefiles/:path*", "destination": "/stylefiles/:path*"},
     { "source": "/letsplaymaths/scriptfiles/:path*", "destination": "/scriptfiles/:path*"},
     { "source": "/letsplaymaths/htmlfiles/:path*", "destination": "/htmlfiles/:path*"}

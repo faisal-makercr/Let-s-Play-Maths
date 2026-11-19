@@ -43,10 +43,10 @@ body {
     color: #ffffff;
     display: none;
     position: static;
-    padding: 2em;
+    padding: 1.2em;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1.5em solid #91D5F5;
+    border-bottom: 1em solid #91D5F5;
     width: 100%;
     box-sizing: border-box;
 }
@@ -62,7 +62,7 @@ body {
     gap: 20px; 
 }
 .navGrouping a{
-    font-size: 1em;
+    font-size: 0.5em;
     color: #ffffff;
     font-family:"Press Start 2P", cursive;
     font-weight: bold;
@@ -84,7 +84,7 @@ h3 {
     text-align: center;
     font-family: cursive;
     font-size: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 .randomNums {
     perspective: 800px;

@@ -35,8 +35,8 @@ body{
     position: static;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 3em;
-    border-bottom: 1.5em solid #91D5F5;
+    padding: 1em 2em;
+    border-bottom: 1em solid #91D5F5;
     width: 100%;
     box-sizing: border-box;
 }
@@ -52,7 +52,7 @@ body{
     gap: 20px;
 }
 .navGrouping a {
-    font-size: 1em;
+    font-size: 0.5em;
     color: white;
     font-family: "Press Start 2P", cursive;
     font-weight: bold;
