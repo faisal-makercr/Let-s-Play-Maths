@@ -25,7 +25,7 @@ p {
     font-size: 0.3em;
 }
 .clicktosee{
-    font-size: 0.5em;
+    font-size: 0.6em;
     padding: 0.3em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;
@@ -44,13 +44,13 @@ p {
     transform: translateY(-3px);
 }
 .numbergames #num{
-    font-size:0.4em;
+    font-size:0.8em;
     padding: 0.2em;
     border-radius:0.2em;
     border-width: 0 0.15em 0.15em 0;
     border-color:#000000;
     border-style: solid;
-    min-width:400px;
+    min-width:680px;
     cursor: pointer;
     background-color:hsl(214, 90%, 76%);
     transition: 0.25s;
